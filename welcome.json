@@ -1,0 +1,27 @@
+{
+    "attachments": [{
+        "mrkdwn_in": ["text"],
+        "author_name": "Learn How to Use Emoji Reactions",
+        "author_link": "https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions",
+        "text": ":white_large_square: *Add an emoji reaction to this message* :thinking_face:",
+        "fields": [{
+            "value": "You can quickly respond to any message on Slack with an emoji reaction. Reactions can be used for any purpose: voting, checking off to-do items, showing excitement."
+        }]
+    }, {
+        "mrkdwn_in": ["text"],
+        "author_name": "Learn How to Pin a Message",
+        "author_link": "https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files",
+        "text": ":white_large_square: *Pin this message* :round_pushpin:",
+        "fields": [{
+            "value": "Important messages and files can be pinned to the details pane in any channel or direct message, including group messages, for easy reference."
+        }]
+    }, {
+        "mrkdwn_in": ["text"],
+        "author_name": "Learn How to Share a Message in Slack",
+        "author_link": "https://get.slack.help/hc/en-us/articles/203274767-Share-messages-in-Slack",
+        "text": ":white_large_square: *Share this Message* :mailbox_with_mail:",
+        "fields": [{
+            "value": "Sharing messages in Slack can help keep conversations on your team organized. And, it's easy to do!"
+        }]
+    }]
+}
