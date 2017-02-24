@@ -21,7 +21,7 @@ def _event_handler(event_type, slack_event):
     Parameters
     ----------
     event_type : str
-        type of event recieved from Slack
+        type of event received from Slack
     slack_event : dict
         JSON response from a Slack reaction event
 
@@ -132,7 +132,7 @@ def hears():
         make_response(message, 403, {"X-Slack-No-Retry": 1})
 
     # ====== Process Incoming Events from Slack ======= #
-    # If the incoming request is an Event we've subcribed to
+    # If the incoming request is an Event we've subscribed to
     if "event" in slack_event:
         event_type = slack_event["event"]["type"]
         # Then handle the event by event_type and have your bot respond

@@ -10,7 +10,7 @@ This file handles all incoming requests from Slack. In this file, we'll import t
 First, you'll want to create a Flask app in [`app.py`](./../app.py).
 Then you'll need to add a couple routes:
 - **`"/install"`** a route that renders an installation page where users can add your Slack app to their team
-- **`"/thanks"`** a route that renders a thank you page to let users know your app has been sucessfully installed.
+- **`"/thanks"`** a route that renders a thank you page to let users know your app has been successfully installed.
     - This route will be the endpoint of the `redirect URL` where Slack will send a temporary authorization code. We'll exchange that code for an OAuth token here, using our `bot` object's `auth` method.
 - **`"/listening"`** a route that listens for all incoming requests from Slack.
     - This route will be the endpoint of the `request URL` where Slack will send all Events your app is subscribed to.
@@ -49,12 +49,12 @@ This file contains a python class for creating `message` objects. Creating `mess
 ### Other Stuff
 
 #### [Templates Folder](./../templates)
-You'll need some HTML for your [installation](./../templates/install.html) and [thank you](./../templates/thanks.html) pages. Once you create this folder, we'll use Jinja templates and add the [Add to Slack](https://api.slack.com/docs/slack-button) button to allow users to install our app. The [thank you page](./../templates/thanks.html) lets users know that the app has been sucessfully installed.
+You'll need some HTML for your [installation](./../templates/install.html) and [thank you](./../templates/thanks.html) pages. Once you create this folder, we'll use Jinja templates and add the [Add to Slack](https://api.slack.com/docs/slack-button) button to allow users to install our app. The [thank you page](./../templates/thanks.html) lets users know that the app has been successfully installed.
 
 #### [welcome.json](./../welcome.json)
 This is a JSON file of message attachments used in the `message.py` file to create the onboarding welcome message our bot will send to new users.
 
 
 ---
-**Next [Section 2: Create a Slack App and Bot User](./../docs/Section-2.md)**  
-**Previous [README](./../README.md)**  
+**Next [Section 2: Create a Slack App and Bot User](./../docs/Section-2.md)**
+**Previous [README](./../README.md)**

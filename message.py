@@ -8,7 +8,7 @@ import yaml
 
 class Message(object):
     """
-    Instanciates a Message object to create and manage
+    Instantiates a Message object to create and manage
     Slack onboarding messages.
     """
     def __init__(self):

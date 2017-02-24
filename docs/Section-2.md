@@ -25,5 +25,5 @@ Let's get ourselves a shiny new **Bot User** so our app can communicate on Slack
 ![add_bot_user](https://cloud.githubusercontent.com/assets/4828352/20548602/c67f367a-b0d9-11e6-85eb-b2069120da1e.png)
 
 ---
-**Next [Section 3: Subscribe to Events](./../docs/Section-3.md)**  
-**Previous [Section 1: ~~Steal~~ Build This Bot](./../docs/Section-1.md)**  
+**Next [Section 3: Subscribe to Events](./../docs/Section-3.md)**
+**Previous [Section 1: ~~Steal~~ Build This Bot](./../docs/Section-1.md)**

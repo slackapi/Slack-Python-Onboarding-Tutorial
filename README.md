@@ -60,9 +60,9 @@ If you are running this project locally, you'll need to set up tunnels for Slack
 You'll likely want to test events coming to your server without going through the actions on your Slack team.  [Postman](https://www.getpostman.com/) is a useful tool you can use to recreate requests sent from Slack to your server. This is especially helpful for events like user join, where the workflow to recreate the event requires quite a bit of set up.
 
 ## Let's get started :tada:
-* **[Section 1: ~~Steal~~ Build This Bot](docs/Section-1.md)** :point_left:  
-* [Section 2: Create a Slack App and Bot User](docs/Section-2.md)  
-* [Section 3: Subscribe to Events](docs/Section-3.md)  
+* **[Section 1: ~~Steal~~ Build This Bot](docs/Section-1.md)** :point_left:
+* [Section 2: Create a Slack App and Bot User](docs/Section-2.md)
+* [Section 3: Subscribe to Events](docs/Section-3.md)
 * [Section 4: App Credentials](docs/Section-4.md)
 * [Section 5: Make it Go](docs/Section-5.md)
 
@@ -71,8 +71,8 @@ You'll likely want to test events coming to your server without going through th
 ### Documentation
 
 ##### Slack Documentation
-* [Getting started with Slack apps](https://api.slack.com/slack-apps)  
-* [Slack Events API documentation](https://api.slack.com/events)  
+* [Getting started with Slack apps](https://api.slack.com/slack-apps)
+* [Slack Events API documentation](https://api.slack.com/events)
 * [Slack Web API documentation](https://api.slack.com/web)
 
 ##### Documentation for Tools

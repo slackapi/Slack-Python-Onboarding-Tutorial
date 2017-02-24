@@ -30,8 +30,8 @@ After you've enabled events, you'll need to add a **redirect URL** in your app's
 
 ![redirect_url_thanks](https://cloud.githubusercontent.com/assets/4828352/20549300/d5aa215e-b0df-11e6-9796-3cb6fb1da7b4.png)
 
-Now your app is ready to be installed on a Slack team! :tada:
+Now your app is ready to be installed on a Slack team. Go ahead and hit that `https://<yourtempsubdomain>.ngrok.io/` URL to install!  :tada:
 
 ---
-**Next [More Info: README](./../README.md)**  
-**Previous [Section 4: App Credentials](./../docs/Section-4.md)**  
+**Next [More Info: README](./../README.md)**
+**Previous [Section 4: App Credentials](./../docs/Section-4.md)**
