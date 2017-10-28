@@ -3,7 +3,6 @@
 A routing layer for the onboarding bot tutorial built using
 [Slack's Events API](https://api.slack.com/events-api) in Python
 """
-import json
 import bot
 from flask import Flask, request, make_response, render_template
 
@@ -109,7 +108,7 @@ def hears():
     This route listens for incoming events from Slack and uses the event
     handler helper function to route events to our Bot.
     """
-    slack_event = json.loads(request.data)
+    slack_event = request.get_json()
 
     # ============= Slack URL Verification ============ #
     # In order to verify the url of our endpoint, Slack will send a challenge
