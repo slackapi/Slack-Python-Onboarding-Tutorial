@@ -18,6 +18,8 @@ This project uses the following events:
 
 After you've subscribed to all the events your app will need, make sure to **Save Changes**.
 
+*Note*: If the **Save Changes** button is not enabled, you may have to return to this step after you **Enable Events** as described in [Section 5: Make it Go](./../docs/Section-5.md).
+
 ![save_changes](https://cloud.githubusercontent.com/assets/4828352/20575405/fca754dc-b16d-11e6-880d-5eb8dd5d5196.png)
 
 ---
