@@ -29,5 +29,5 @@ In `bot.py`, Line 24:
 Our app will grab these secrets from our environment.
 
 ---
-**Next [Section 5: Make it Go](./../docs/Section-5.md)**  
-**Previous [Section 3: Subscribe to Events](./../docs/Section-3.md)**  
+**Next [Section 5: Make it Go](./../docs/Section-5.md)**
+**Previous [Section 3: Subscribe to Events](./../docs/Section-3.md)**

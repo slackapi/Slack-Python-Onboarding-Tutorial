@@ -10,12 +10,12 @@ from slackclient import SlackClient
 # To remember which teams have authorized your app and what tokens are
 # associated with each team, we can store this information in memory on
 # as a global object. When your bot is out of development, it's best to
-# save this in a more persistant memory store.
+# save this in a more persistent memory store.
 authed_teams = {}
 
 
 class Bot(object):
-    """ Instanciates a Bot object to handle Slack onboarding interactions."""
+    """ Instantiates a Bot object to handle Slack onboarding interactions."""
     def __init__(self):
         super(Bot, self).__init__()
         self.name = "pythonboardingbot"
@@ -31,13 +31,13 @@ class Bot(object):
         self.verification = os.environ.get("VERIFICATION_TOKEN")
 
         # NOTE: Python-slack requires a client connection to generate
-        # an oauth token. We can connect to the client without authenticating
+        # an OAuth token. We can connect to the client without authenticating
         # by passing an empty string as a token and then reinstantiating the
         # client with a valid OAuth token once we have one.
         self.client = SlackClient("")
         # We'll use this dictionary to store the state of each message object.
-        # In a production envrionment you'll likely want to store this more
-        # persistantly in  a database.
+        # In a production environment you'll likely want to store this more
+        # persistently in  a database.
         self.messages = {}
 
     def auth(self, code):
@@ -115,7 +115,7 @@ class Bot(object):
         # of for the team id we've got.
         if self.messages.get(team_id):
             # Then we'll update the message dictionary with a key for the
-            # user id we've recieved and a value of a new message object
+            # user id we've received and a value of a new message object
             self.messages[team_id].update({user_id: message.Message()})
         else:
             # If there aren't any message for that team, we'll add a dictionary
@@ -181,7 +181,7 @@ class Bot(object):
 
     def update_pin(self, team_id, user_id):
         """
-        Update onboarding welcome message after recieving a "pin_added"
+        Update onboarding welcome message after receiving a "pin_added"
         event from Slack. Update timestamp for welcome message.
 
         Parameters

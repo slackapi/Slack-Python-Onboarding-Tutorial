@@ -23,5 +23,5 @@ After you've subscribed to all the events your app will need, make sure to **Sav
 ![save_changes](https://cloud.githubusercontent.com/assets/4828352/20575405/fca754dc-b16d-11e6-880d-5eb8dd5d5196.png)
 
 ---
-**Next [Section 4:  App Credentials](./../docs/Section-4.md)**  
-**Previous [Section 2: Create a Slack App and Bot User](./../docs/Section-2.md)**  
+**Next [Section 4:  App Credentials](./../docs/Section-4.md)**
+**Previous [Section 2: Create a Slack App and Bot User](./../docs/Section-2.md)**
