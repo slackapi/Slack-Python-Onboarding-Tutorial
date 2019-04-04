@@ -8,6 +8,12 @@ PythOnBoarding Bot is designed to greet new users on your team and introduce the
 
 Let's go write some code. You got this! :sparkles:
 
+The first thing you'll need to do is make a local copy of this git repository. If you are familiar with `git` you can use:
+
+`git clone https://github.com/slackapi/Slack-Python-Onboarding-Tutorial.git`
+
+Otherwise you can [download](https://github.com/slackapi/Slack-Python-Onboarding-Tutorial/archive/master.zip) and `unzip` the project.
+
 #### Technical Requirements
 
 This example uses [Python](https://www.python.org/downloads/), specifically version 2.7 so you'll need to make sure you are using the correct version of Python. We'll also use a number of python packages you can install through [pip.](https://pip.pypa.io/en/stable/installing/)

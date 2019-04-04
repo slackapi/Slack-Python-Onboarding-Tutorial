@@ -16,6 +16,16 @@ export CLIENT_SECRET='xxXXxxXXXXXxxxxXXX'
 export VERIFICATION_TOKEN='xxxXXXxxXXxxX'
 ```
 
+Note that if you have not "installed" your bot, you need to pass the BOT TOKEN to the slack_client. We can use export here as well and modify the bot init function to pass the TOKEN to the slack_client init.
+```
+export SLACK_BOT_TOKEN='xoxb-XXXXXXXXXXXX-xxxxxxxxxxxx-XXXXXXXXXXXXXXXXXXXXXXXX'
+```
+
+In `bot.py`, Line 24:
+```
+        self.client = SlackClient(os.environ.get("SLACK_BOT_TOKEN"))
+```
+
 Our app will grab these secrets from our environment.
 
 ---

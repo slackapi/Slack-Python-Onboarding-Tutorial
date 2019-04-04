@@ -10,7 +10,7 @@ python app.py
 
 ![start_appy](https://cloud.githubusercontent.com/assets/4828352/20549064/cad48f8c-b0dd-11e6-8a85-25bff2815d2e.png)
 
-Since Slack will need to talk to your app through teh interwebs, let's expose our app to the world wide web through an [Ngrok](https://ngrok.com/) tunnel. In a terminal window, open up an ngrok tunnel for the port your Flask app will be served on locally. (The default port for Flask is 5000)
+Since Slack will need to talk to your app through the interwebs, let's expose our app to the world wide web through an [Ngrok](https://ngrok.com/) tunnel. In a terminal window, open up an ngrok tunnel for the port your Flask app will be served on locally. (The default port for Flask is 5000)
 
 ```bash
 ngrok http 5000
